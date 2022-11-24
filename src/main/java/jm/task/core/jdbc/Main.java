@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         userService.createUsersTable();
         userService.saveUser("Andrei", "Solskii", (byte) 20);
-        userService.saveUser("Kirill", "Ivanov", (byte) 19);
+        userService.saveUser("Ignat", "Izosimov", (byte) 19);
         userService.saveUser("Big", "Lebowskii", (byte) 53);
         userService.saveUser("Ryan", "Gosling", (byte) 43);
         for (User user : userService.getAllUsers()) {
